@@ -182,7 +182,7 @@ header nav ul{
     padding: 0.5rem;
     line-height: 2rem;
     margin: 3rem;
-    text-align: center;
+    text-align: justify;
 }
 
 .imgContacto{
@@ -190,8 +190,13 @@ header nav ul{
     margin-bottom: 3rem;
 }
 
-.textoContacto{
-    margin: 1rem 10rem 2rem 10em;
+.formulario{
+    color: black;
+}
+
+.mensajeFormulario, .botonesFormulario{
+    text-align: center;
+    color:aliceblue;
 }
 
 /* estilos de footer */
@@ -249,7 +254,7 @@ footer a img {
 
 /* mq de tablets */
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:680px) {
 
     /* mq de main sobre mi */
 
@@ -364,8 +369,8 @@ footer a img {
 
     .video{
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
         gap: 5px;
         margin-top: -1rem;
     }
@@ -388,6 +393,30 @@ footer a img {
         margin: 2rem;
     }
     
+    /* mq de contacto */
+
+    .mainContacto{
+        background-color: aqua;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .formulario{
+        grid-column: span 2;
+    }
+
+    .tituloContacto{
+        grid-column: span 1;
+    }
+
+    .imgContacto{
+        grid-column: span 1;
+    }
+
+    .textoContacto{
+        grid-column: span 1;
+    }
 
     /* animacion a proyectoImagenes */
 
