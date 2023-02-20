@@ -1,0 +1,395 @@
+
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* estilos generales */
+
+body{
+    background-color: rgb(10, 10, 10);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color:aliceblue;
+}
+
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-shadow: 2px 2px 3px #b8b6b6;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.imgHeader{
+    max-width: 8rem;
+    height: auto;
+}
+
+/* estilos de header */
+
+header{
+    background-color: rgba(168, 150, 150, 0.9);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 0.2rem;
+}
+
+.navbar-nav {
+    color: white;
+  }
+
+.container-fluid{
+    background-color: transparent;
+}
+
+
+/* estilos de main index */
+
+
+.bodyIndex{
+    background-image: url(../img/florDeMayo.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mainIndex {
+    margin: 3rem 3rem 3rem 3rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 10%);
+    text-align: center;
+
+}
+
+.pIndex{
+    color: antiquewhite;
+}
+
+.parrafoArtista{
+    margin-top: 2rem;
+    text-align: center;
+    gap: 1rem;
+    line-height: 1.5rem;
+    color: antiquewhite;
+}
+
+.tituloInicio{
+    font-size:2rem;
+}
+
+/* estilos de main sobreMi */ 
+
+.tituloSobreMi{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.mainSobreMi{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    line-height: 2rem;
+    margin: 3rem;
+    text-align: justify;
+}
+
+.videoSobreMi, .pSobreMiDesktop{
+    display:none;
+}
+
+/* estilos de main proyectoVideos */
+
+.mainVideo{
+    padding: 3rem;
+    line-height: 2rem;
+    text-align: center;
+}
+
+.pProyectoVideo{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.estiloVideo{
+    margin-top: 2rem;
+    width: 240px;
+    height: 140px;
+}
+
+
+/* estilos de main proyectoImagenes */ 
+
+.mainProyectoImagenes{
+    padding: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    line-height: 2rem;
+    text-align:justify;
+}
+
+.textoImagenes{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+/* estilos de main contacto */
+
+.mainContacto{
+    padding: 0.5rem;
+    line-height: 2rem;
+    margin: 3rem;
+    text-align: center;
+}
+
+.imgContacto{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.textoContacto{
+    margin: 1rem 10rem 2rem 10em;
+}
+
+/* estilos de footer */
+
+footer{
+    background-color: rgb(182, 167, 167);
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 6rem;
+    bottom: 0;
+    margin-top: rem;
+    padding-bottom: 6rem;
+    padding-top: 0.3rem;
+}
+
+.pFooter{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 0.7rem;
+}
+
+.redesSociales{
+    font-weight: bold;
+    font-weight: 600;
+    font-size: 0.7rem;
+}
+
+footer a img {
+    width: 1.5rem;
+    text-decoration-line: none;
+    
+}
+
+.enlaces{
+    text-decoration: none;
+}
+
+#irArriba{
+    position: absolute;
+    top: 0;
+    text-decoration: none;
+}
+
+.irArriba{
+    font-size: 0.6rem;
+    display:inline-block;
+    background-color:rgb(235, 240, 241);
+    padding: 6px 16px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+
+
+/* mq de tablets */
+
+@media screen and (min-width:768px) {
+
+    /* mq de main sobre mi */
+
+    .videoSobreMi{
+        display: block; 
+        width: 42rem;
+        height: 42rem;   
+    }
+
+    /* mq de proyectoVideos */
+
+    .video{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 10px;
+        margin-top: 4rem;
+    }
+
+    /* mq de main proyectoImagenes */
+
+    .mainProyectoImagenes{
+        padding: 1rem;
+        line-height: 2rem;
+        text-align:center;
+    }
+
+    .textoImagenes{
+        margin: 2rem;
+    }
+}
+
+
+/* mq de desktop */
+
+@media screen and (min-width:1024px) {
+
+
+    /* estilos generales de transiciones */
+
+    header nav ul li:hover{
+        border-bottom: 1px solid rgb(213, 189, 175);
+        transform: scale(0.9);
+    }
+
+    .tituloInicio, .tituloSobreMi, .tituloVideo, .tituloImagenes, .tituloContacto{
+        transition: 2s;
+    }
+
+    .tituloInicio:hover, .tituloSobreMi:hover, .tituloVideo:hover, .tituloImagenes:hover, .tituloContacto:hover{
+        transform: scale(0.8);
+        transition: 4s;
+    }
+
+
+    /* mq de index  */
+
+    .mainIndex{
+        margin-top: 6rem;
+    }
+
+
+    .tituloInicio{
+        margin-top: 1rem;
+        font-size: 6rem;
+    } 
+
+
+    /* mq de sobreMi */
+
+    .mainSobreMi{
+        gap: 2rem;
+        line-height: 2rem;
+        margin: 3rem;
+    }
+
+    .pArtista{
+        width: 80rem;
+        text-align:center;  
+    }
+
+    .videoSobreMi {
+        display: block; 
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        width: 60rem;
+        height: 42rem;   
+    }
+
+    .imgSobreMi{
+        margin-top: 1rem;
+        width: 76%;
+        height: auto;
+    }
+
+    /* mq de proyectoVideos */
+
+    .video{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 5px;
+        margin-top: -1rem;
+    }
+
+    .estiloVideo{
+        width: 550px;
+        height: 315px;
+    }
+    
+
+    /* mq de proyectoImagenes */
+    
+    .mainProyectoImagenes{
+        padding: 2rem;
+        line-height: 2rem;
+        text-align:center;
+    }
+
+    .textoImagenes{
+        margin: 2rem;
+    }
+    
+
+    /* animacion a proyectoImagenes */
+
+    .imgProyectoImagenes{
+        animation-name: ani_img;
+        animation-iteration-count: 3;
+        animation-duration: 10s;
+        animation-delay: 2s;
+    }
+
+    @keyframes ani_img {
+        0%{
+            transform: scale(1);
+        }
+
+        15%{
+            transform: scale(0.9);
+        }
+
+        30%{
+            transform: scale(0.8);
+        }
+
+        45%{
+            transform: scale(0.7);
+        }
+
+        60%{
+            transform: scale(0.8);
+        }
+
+        75%{
+            transform: scale(0.9);
+        }
+
+        100%{
+            transform: scale(1);
+        }
+    }
+
+}
+
+
+
