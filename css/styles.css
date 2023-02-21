@@ -165,6 +165,10 @@ header nav ul {
 
 /* estilos de main contacto */
 
+.tituloContacto{
+    margin-bottom: 2rem;
+}
+
 .mainContacto {
     padding: 0.5rem;
     line-height: 2rem;
@@ -189,6 +193,7 @@ header nav ul {
 .noTextoContacto{
     display: none;
 }
+
 /* estilos de footer */
 
 footer {
@@ -400,7 +405,7 @@ footer a img {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 60% 40%;
         text-align: center;
-        margin-top: -2rem;
+        margin-top: -5rem;
     }
 
     .noTextoContacto{
