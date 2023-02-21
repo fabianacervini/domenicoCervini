@@ -12,13 +12,14 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    color: aliceblue;
+    color: rgb(228, 224, 220);
     background-image: url(../img/fondo.jpeg);
 }
 
 
 h1 {
     font-family: 'Montserrat', sans-serif;
+    color: white;
     font-weight: 600;
     text-shadow: 1px 1px 2px #b8b6b6;
     text-align: center;
@@ -182,7 +183,7 @@ header nav ul {
 
 .mensajeFormulario, .botonesFormulario {
     text-align: center;
-    color: aliceblue;
+    color: antiquewhite;
 }
 
 .noTextoContacto{
@@ -226,7 +227,7 @@ footer a img {
 .irArriba {
     font-size: 0.6rem;
     display: inline-block;
-    background-color: rgb(243, 246, 247);
+    background-color:antiquewhite;
     padding: 6px 16px;
     border-radius: 10px;
     text-decoration: none;
@@ -346,7 +347,7 @@ footer a img {
     }
 
     .pArtista {
-        width: 80rem;
+        width: 70rem;
         text-align: center;
     }
 
@@ -444,42 +445,42 @@ footer a img {
         border-radius: 10px;
     }
 
-    /* animacion a proyectoImagenes */
+    /* animacion a sobreMi */
 
-    .imgProyectoImagenes {
+    .imgSobreMi {
         animation-name: ani_img;
-        animation-iteration-count: 3;
+        animation-iteration-count: infinite;
         animation-duration: 10s;
-        animation-delay: 2s;
+        animation-delay: 1s;
     }
 
     @keyframes ani_img {
         0% {
-            transform: scale(1);
+            transform: scale(1.1);
         }
 
         15% {
-            transform: scale(0.9);
+            transform: scale(1);
         }
 
         30% {
-            transform: scale(0.8);
-        }
-
-        45% {
-            transform: scale(0.7);
-        }
-
-        60% {
-            transform: scale(0.8);
-        }
-
-        75% {
             transform: scale(0.9);
         }
 
-        100% {
+        45% {
+            transform: scale(0.8);
+        }
+
+        60% {
+            transform: scale(0.9);
+        }
+
+        75% {
             transform: scale(1);
+        }
+
+        100% {
+            transform: scale(1.1);
         }
     }
 
