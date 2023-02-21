@@ -77,51 +77,60 @@
     <!-- contenido principal html contacto -->
     <main class="mainContacto">
 
-        <!-- titulo principal de contacto -->
-        <div data-aos="fade-down">
-            <h1 class="tituloContacto"> Contacto</h1>
-        </div>
+      <!-- titulo principal de contacto -->
+      <div data-aos="fade-down" class="tituloContacto">
+        <h1 class="tituloContacto"> Contacto</h1>
+      </div>
 
-        <!-- inlace relativo imagen contacto -->
-        <div class="imgContacto">
+      <!-- contenedor de grid principal -->
+        <div class="gridCaja">
+
+          <!-- texto complementario contacto -->
+          <div class="textoContacto"> 
+            <p>Agradezco escuchar a personas de todo el mundo que disfrutan de mi trabajo y será
+            bienvenida cualquier pregunta o consulta.</p>
+            <p class="noTextoContacto"> Me encantaría saber más acerca de ti y cómo puedo ayudarte. Por favor, completa el formulario de contacto con tus datos y detalles de tu consulta y me pondré en contacto contigo lo antes posible. </p>
+            <p> También puedes encontrarme en mis redes sociales para estar al tanto de mis últimas creaciones y noticias ¡Muchas gracias por tu tiempo! Estoy deseando saber más sobre ti y trabajar juntos. </p>
+          </div>
+
+          <!-- inlace relativo imagen contacto -->
+          <div class="imgContacto" >
             <img src="../img/contacto.jpg" class="img-fluid" alt="fotografía del artista desenfocada">
+          </div>
+          
+          <!-- formulario de contacto -->
+          <div class="formulario">
+          <form>
+              <div class="form-floating mb-3">
+                  <input type="nombre_apellido" class="form-control" id="floatingInput" placeholder="Juan Garcia">
+                  <label for="floatingTextarea">Nombre y apellido</label>
+              </div>
+
+              <div class="form-floating mb-3">
+                  <textarea class="form-control" placeholder="Deja tus datos de acá" id="floatingTextarea2"></textarea>
+                  <label for="floatingTextarea2">Datos de contacto</label>
+              </div>
+
+              <div class="form-floating mb-3">
+                  <textarea class="form-control" placeholder="Deja tu comentario acá" id="floatingTextarea"
+                      style="height: 80px"></textarea>
+                  <label for="floatingTextarea">Comentarios</label>
+              </div>
+
+              <div class="mensajeFormulario">
+                  <label for="box_usuario"> ¡Suscríbete a mi lista de correo para recibir noticias y actualizaciones!
+                  </label>
+                  <input class="box" type="checkbox">
+              </div>
+
+              <div class="botonesFormulario">
+                  <input type="submit">
+                  <input type="reset">
+              </div>     
+            </form>
+          </div>
+
         </div>
-
-        <!-- texto complementario contacto -->
-        <p class="textoContacto">Agradezco escuchar a personas de todo el mundo que disfrutan de mi trabajo y será
-          bienvenida cualquier pregunta o consulta.</p>
-        <p class="textoContacto">Sígueme en Facebook e Instagram para mantenerte actualizado sobre mi arte, trabajos en
-          progreso e información sobre mi proceso creativo.</p>
-
-        <!-- formulario de contacto -->
-        <form class="formulario">
-            <div class="form-floating mb-3">
-                <input type="nombre_apellido" class="form-control" id="floatingInput" placeholder="Juan Garcia">
-                <label for="floatingTextarea">Nombre y apellido</label>
-            </div>
-
-            <div class="form-floating mb-3">
-                <textarea class="form-control" placeholder="Deja tus datos de acá" id="floatingTextarea2"></textarea>
-                <label for="floatingTextarea2">Datos de contacto</label>
-            </div>
-
-            <div class="form-floating mb-3">
-                <textarea class="form-control" placeholder="Deja tu comentario acá" id="floatingTextarea"
-                    style="height: 80px"></textarea>
-                <label for="floatingTextarea">Comentarios</label>
-            </div>
-
-            <div class="mensajeFormulario">
-                <label for="box_usuario"> ¡Suscríbete a mi lista de correo para recibir noticias y actualizaciones!
-                </label>
-                <input class="box" type="checkbox">
-            </div>
-
-            <div class="botonesFormulario">
-                <input type="submit">
-                <input type="reset">
-            </div>
-        </form>
     </main>
 
       <!-- pie de página -->
