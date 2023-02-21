@@ -294,7 +294,7 @@ footer a img {
 
 /* mq de desktop */
 
-@media screen and (min-width:1024px)  {
+@media screen and (min-width: 1024px) and (max-width: 2000px)   {
 
     /* mq estilos de header */
 
