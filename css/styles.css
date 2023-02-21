@@ -201,7 +201,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    position: relative;
+    position: sticky;
     width: 100%;
     height: 4rem;
     bottom: 0;
@@ -294,7 +294,7 @@ footer a img {
 
 /* mq de desktop */
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width:1024px)  {
 
     /* mq estilos de header */
 
