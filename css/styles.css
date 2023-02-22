@@ -51,10 +51,13 @@ header nav ul {
     background-color: rgb(0, 0, 0);
 }
 
-.offcanvas-header,
-.btn-close {
+.offcanvas-header {
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
+}
+
+.btn-close{
+    background-color:rgb(255, 255, 255);
 }
 
 .nav-link {
@@ -65,9 +68,8 @@ header nav ul {
     background-color: rgb(0, 0, 0);
 }
 
-.navbar-toggler-icon,
-.navbar-toggler {
-    background-color: rgb(255, 255, 255);
+.navbar-toggler{
+    background-color: whitesmoke;
 }
 
 
@@ -82,12 +84,8 @@ header nav ul {
 }
 
 .mainIndex {
-    margin: 3rem 3rem 3rem 3rem;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, 10%);
+    margin: 3rem;
     text-align: center;
-
 }
 
 .pIndex {
@@ -95,14 +93,15 @@ header nav ul {
 }
 
 .parrafoArtista {
-    margin-top: 2rem;
+    margin-top: 5rem;
     text-align: center;
-    gap: 1rem;
+    gap: 2rem;
     line-height: 1.5rem;
     color: antiquewhite;
 }
 
 .tituloInicio {
+    margin-top: 4rem;
     font-size: 2rem;
 }
 
@@ -337,18 +336,18 @@ footer a img {
     }
 
     .pIndex{
-        margin-top: 13vh;
+        margin-top: 10vh;
     }
 
     .tituloInicio {
-        margin-top: 23vh;
+        margin-top: 15vh;
         font-size: 6rem;
     }
 
         
     .parrafoArtista {
-        margin-top: 38vh;
-        margin-bottom: 5vh;
+        margin-top: 15vh;
+        text-align: center;
     }
 
 
