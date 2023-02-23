@@ -1,0 +1,18 @@
+// estilos de mixin
+
+@mixin contacto ($display, $grid-template-columns, $grid-template-rows, $text-align, $margin-top) {
+    display: $display;
+    grid-template-columns: $grid-template-columns;
+    grid-template-rows: $grid-template-rows;
+    text-align: $text-align;
+    margin-top: $margin-top;
+}
+
+@mixin footerDesktop ($justify-content, $align-items, $position, $width, $height, $bottom) { 
+    justify-content: $justify-content;
+    align-items: $align-items;
+    position: $position;
+    width: $width;
+    height: $height;
+    bottom: $bottom;    
+}
