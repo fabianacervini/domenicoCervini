@@ -75,7 +75,7 @@ header{
 
 /* estilos de footer */
 
-    footer{
+    .footer{
         background-color: $background-color-principal;
         display: flex;
         justify-content: space-around;
@@ -84,7 +84,7 @@ header{
         width: 100%;
         height: 4rem;
         bottom: 0;
-            .enlaces{
+            .enlaceFooter{
                 text-decoration: none;
                     img{
                         width: 1rem;

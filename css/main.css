@@ -75,6 +75,9 @@
     text-align: center;
     line-height: 2rem;
   }
+  .mainSobreMi .pSobreMiDesktop {
+    display: block;
+  }
   /* mq de proyectoVideos */
   .mainVideo .video {
     display: grid;
@@ -100,7 +103,6 @@
     grid-template-rows: 60% 40%;
     text-align: center;
     margin-top: -5rem;
-    /* estilos de footer */
   }
   .gridCaja .textoContacto {
     text-align: center;
@@ -124,14 +126,39 @@
     grid-column: span 2;
     padding: 3rem;
   }
-  .gridCaja footer {
+  /* estilos de footer */
+  .footer {
     justify-content: space-around;
     align-items: center;
     position: -webkit-sticky;
     position: sticky;
     width: 100%;
-    height: 30rem;
+    height: 4rem;
     bottom: 0;
+  }
+  .footer .pFooter {
+    font-size: 2rem;
+  }
+  .footer .imgFooter {
+    width: 4rem;
+  }
+  .footer .irArriba {
+    font-size: 0.8rem;
+    padding: 6px 16px;
+    border-radius: 10px;
+  }
+  /* estilos generales de transiciones */
+  header nav ul li:hover {
+    border-bottom: 1px solid rgb(213, 189, 175);
+    transform: scale(0.9);
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+  .tituloInicio, .tituloSobreMi, .tituloVideo, .tituloImagenes, .tituloContacto {
+    transition: 2s;
+  }
+  .tituloInicio:hover, .tituloSobreMi:hover, .tituloVideo:hover, .tituloImagenes:hover, .tituloContacto:hover {
+    transform: scale(0.8);
+    transition: 4s;
   }
 }
 /* mq de tablets */
@@ -160,10 +187,13 @@
     margin: 2rem;
   }
   /* estilos de footer */
-  footer .pFooter {
-    font-size: 3rem;
+  .footer .enlaceFooter {
+    text-decoration: none;
   }
-  footer a img {
+  .footer .pFooter {
+    font-size: 0.6rem;
+  }
+  .footer .imgFooter {
     width: 1.5rem;
   }
 }
@@ -237,6 +267,9 @@
     text-align: center;
     line-height: 2rem;
   }
+  .mainSobreMi .pSobreMiDesktop {
+    display: block;
+  }
   /* mq de proyectoVideos */
   .mainVideo .video {
     display: grid;
@@ -262,7 +295,6 @@
     grid-template-rows: 60% 40%;
     text-align: center;
     margin-top: -5rem;
-    /* estilos de footer */
   }
   .gridCaja .textoContacto {
     text-align: center;
@@ -286,14 +318,39 @@
     grid-column: span 2;
     padding: 3rem;
   }
-  .gridCaja footer {
+  /* estilos de footer */
+  .footer {
     justify-content: space-around;
     align-items: center;
     position: -webkit-sticky;
     position: sticky;
     width: 100%;
-    height: 30rem;
+    height: 4rem;
     bottom: 0;
+  }
+  .footer .pFooter {
+    font-size: 2rem;
+  }
+  .footer .imgFooter {
+    width: 4rem;
+  }
+  .footer .irArriba {
+    font-size: 0.8rem;
+    padding: 6px 16px;
+    border-radius: 10px;
+  }
+  /* estilos generales de transiciones */
+  header nav ul li:hover {
+    border-bottom: 1px solid rgb(213, 189, 175);
+    transform: scale(0.9);
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+  .tituloInicio, .tituloSobreMi, .tituloVideo, .tituloImagenes, .tituloContacto {
+    transition: 2s;
+  }
+  .tituloInicio:hover, .tituloSobreMi:hover, .tituloVideo:hover, .tituloImagenes:hover, .tituloContacto:hover {
+    transform: scale(0.8);
+    transition: 4s;
   }
 }
 /* mq de tablets */
@@ -322,10 +379,13 @@
     margin: 2rem;
   }
   /* estilos de footer */
-  footer .pFooter {
-    font-size: 3rem;
+  .footer .enlaceFooter {
+    text-decoration: none;
   }
-  footer a img {
+  .footer .pFooter {
+    font-size: 0.6rem;
+  }
+  .footer .imgFooter {
     width: 1.5rem;
   }
 }
@@ -390,6 +450,9 @@
     text-align: center;
     line-height: 2rem;
   }
+  .mainSobreMi .pSobreMiDesktop {
+    display: block;
+  }
   /* mq de proyectoVideos */
   .mainVideo .video {
     display: grid;
@@ -415,7 +478,6 @@
     grid-template-rows: 60% 40%;
     text-align: center;
     margin-top: -5rem;
-    /* estilos de footer */
   }
   .gridCaja .textoContacto {
     text-align: center;
@@ -439,14 +501,39 @@
     grid-column: span 2;
     padding: 3rem;
   }
-  .gridCaja footer {
+  /* estilos de footer */
+  .footer {
     justify-content: space-around;
     align-items: center;
     position: -webkit-sticky;
     position: sticky;
     width: 100%;
-    height: 30rem;
+    height: 4rem;
     bottom: 0;
+  }
+  .footer .pFooter {
+    font-size: 2rem;
+  }
+  .footer .imgFooter {
+    width: 4rem;
+  }
+  .footer .irArriba {
+    font-size: 0.8rem;
+    padding: 6px 16px;
+    border-radius: 10px;
+  }
+  /* estilos generales de transiciones */
+  header nav ul li:hover {
+    border-bottom: 1px solid rgb(213, 189, 175);
+    transform: scale(0.9);
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+  .tituloInicio, .tituloSobreMi, .tituloVideo, .tituloImagenes, .tituloContacto {
+    transition: 2s;
+  }
+  .tituloInicio:hover, .tituloSobreMi:hover, .tituloVideo:hover, .tituloImagenes:hover, .tituloContacto:hover {
+    transform: scale(0.8);
+    transition: 4s;
   }
 }
 /* mq de tablets */
@@ -475,10 +562,13 @@
     margin: 2rem;
   }
   /* estilos de footer */
-  footer .pFooter {
-    font-size: 3rem;
+  .footer .enlaceFooter {
+    text-decoration: none;
   }
-  footer a img {
+  .footer .pFooter {
+    font-size: 0.6rem;
+  }
+  .footer .imgFooter {
     width: 1.5rem;
   }
 }
@@ -546,6 +636,9 @@
     text-align: center;
     line-height: 2rem;
   }
+  .mainSobreMi .pSobreMiDesktop {
+    display: block;
+  }
   /* mq de proyectoVideos */
   .mainVideo .video {
     display: grid;
@@ -571,7 +664,6 @@
     grid-template-rows: 60% 40%;
     text-align: center;
     margin-top: -5rem;
-    /* estilos de footer */
   }
   .gridCaja .textoContacto {
     text-align: center;
@@ -595,14 +687,39 @@
     grid-column: span 2;
     padding: 3rem;
   }
-  .gridCaja footer {
+  /* estilos de footer */
+  .footer {
     justify-content: space-around;
     align-items: center;
     position: -webkit-sticky;
     position: sticky;
     width: 100%;
-    height: 30rem;
+    height: 4rem;
     bottom: 0;
+  }
+  .footer .pFooter {
+    font-size: 2rem;
+  }
+  .footer .imgFooter {
+    width: 4rem;
+  }
+  .footer .irArriba {
+    font-size: 0.8rem;
+    padding: 6px 16px;
+    border-radius: 10px;
+  }
+  /* estilos generales de transiciones */
+  header nav ul li:hover {
+    border-bottom: 1px solid rgb(213, 189, 175);
+    transform: scale(0.9);
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+  .tituloInicio, .tituloSobreMi, .tituloVideo, .tituloImagenes, .tituloContacto {
+    transition: 2s;
+  }
+  .tituloInicio:hover, .tituloSobreMi:hover, .tituloVideo:hover, .tituloImagenes:hover, .tituloContacto:hover {
+    transform: scale(0.8);
+    transition: 4s;
   }
 }
 /* mq de tablets */
@@ -631,10 +748,13 @@
     margin: 2rem;
   }
   /* estilos de footer */
-  footer .pFooter {
-    font-size: 3rem;
+  .footer .enlaceFooter {
+    text-decoration: none;
   }
-  footer a img {
+  .footer .pFooter {
+    font-size: 0.6rem;
+  }
+  .footer .imgFooter {
     width: 1.5rem;
   }
 }
@@ -711,6 +831,9 @@
     text-align: center;
     line-height: 2rem;
   }
+  .mainSobreMi .pSobreMiDesktop {
+    display: block;
+  }
   /* mq de proyectoVideos */
   .mainVideo .video {
     display: grid;
@@ -736,7 +859,6 @@
     grid-template-rows: 60% 40%;
     text-align: center;
     margin-top: -5rem;
-    /* estilos de footer */
   }
   .gridCaja .textoContacto {
     text-align: center;
@@ -760,14 +882,39 @@
     grid-column: span 2;
     padding: 3rem;
   }
-  .gridCaja footer {
+  /* estilos de footer */
+  .footer {
     justify-content: space-around;
     align-items: center;
     position: -webkit-sticky;
     position: sticky;
     width: 100%;
-    height: 30rem;
+    height: 4rem;
     bottom: 0;
+  }
+  .footer .pFooter {
+    font-size: 2rem;
+  }
+  .footer .imgFooter {
+    width: 4rem;
+  }
+  .footer .irArriba {
+    font-size: 0.8rem;
+    padding: 6px 16px;
+    border-radius: 10px;
+  }
+  /* estilos generales de transiciones */
+  header nav ul li:hover {
+    border-bottom: 1px solid rgb(213, 189, 175);
+    transform: scale(0.9);
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+  .tituloInicio, .tituloSobreMi, .tituloVideo, .tituloImagenes, .tituloContacto {
+    transition: 2s;
+  }
+  .tituloInicio:hover, .tituloSobreMi:hover, .tituloVideo:hover, .tituloImagenes:hover, .tituloContacto:hover {
+    transform: scale(0.8);
+    transition: 4s;
   }
 }
 /* mq de tablets */
@@ -796,10 +943,13 @@
     margin: 2rem;
   }
   /* estilos de footer */
-  footer .pFooter {
-    font-size: 3rem;
+  .footer .enlaceFooter {
+    text-decoration: none;
   }
-  footer a img {
+  .footer .pFooter {
+    font-size: 0.6rem;
+  }
+  .footer .imgFooter {
     width: 1.5rem;
   }
 }
@@ -866,7 +1016,7 @@ header .nav-link {
 }
 
 /* estilos de footer */
-footer {
+.footer {
   background-color: rgb(0, 0, 0);
   display: flex;
   justify-content: space-around;
@@ -877,21 +1027,21 @@ footer {
   height: 4rem;
   bottom: 0;
 }
-footer .enlaces {
+.footer .enlaceFooter {
   text-decoration: none;
 }
-footer .enlaces img {
+.footer .enlaceFooter img {
   width: 1rem;
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
 }
-footer .pFooter {
+.footer .pFooter {
   font-family: "Montserrat", sans-serif;
   font-weight: 200;
   padding-top: 1rem;
   font-size: 0.4rem;
 }
-footer .irArriba {
+.footer .irArriba {
   font-size: 0.6rem;
   display: inline-block;
   background-color: rgb(255, 255, 255);
@@ -899,7 +1049,7 @@ footer .irArriba {
   border-radius: 10px;
   text-decoration: none;
 }
-footer .irArriba #irArriba {
+.footer .irArriba #irArriba {
   position: absolute;
   top: 0;
   text-decoration: none;

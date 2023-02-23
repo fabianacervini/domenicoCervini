@@ -59,6 +59,9 @@
                 text-align: center;
                 line-height: $line-heigth-principal;
             }
+            .pSobreMiDesktop{
+                display: block;
+            }
     }   
 
     /* mq de proyectoVideos */
@@ -117,18 +120,56 @@
             grid-column: span 2;
             padding: 3rem;
         }
-
+    }  
 
     /* estilos de footer */
 
-        footer{
+        .footer{
             justify-content: space-around;
             align-items: center;
             position: sticky;
             width: 100%;
-            height: 30rem;
+            height: 4rem;
             bottom: 0;
+            .pFooter {
+                font-size: 2rem;
+            }
+            .imgFooter{
+                width: 4rem;
+            }
+            .irArriba {
+                font-size: 0.8rem;
+                padding: 6px 16px;
+                border-radius: 10px;
+            }
         }
+
+
+    /* estilos generales de transiciones */
+
+    header{
+        nav{
+            ul{
+                li{
+                    &:hover {
+                        border-bottom: 1px solid rgb(213, 189, 175);
+                        transform: scale(0.9);
+                        background-color: rgb(255, 255, 255, 0.4);
+                    }
+                }
+            }
+        } 
+    }
+
+
+    .tituloInicio, .tituloSobreMi, .tituloVideo, .tituloImagenes, .tituloContacto {
+        transition: $transition-time-principal;
+    }
+
+    .tituloInicio:hover, .tituloSobreMi:hover, .tituloVideo:hover, .tituloImagenes:hover, .tituloContacto:hover {
+        transform: scale(0.8);
+        transition: $transition-time-secundary;
+    }
     
-    }    
+      
 } 

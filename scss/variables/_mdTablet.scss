@@ -34,24 +34,15 @@
     
     /* estilos de footer */
 
-    footer{
-        .pFooter {
-            font-size: 3rem;
+    .footer{
+        .enlaceFooter{
+            text-decoration: none;
         }
-        a{
-            img{
-                width: 1.5rem;
-            }
+        .pFooter {
+            font-size: 0.6rem;
+        }
+        .imgFooter{
+            width: 1.5rem;
         }
     }
-
-    
-
-
-    
-
-
-
-
-
-}
+    }
