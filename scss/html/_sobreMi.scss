@@ -1,0 +1,28 @@
+/* estilos de sobreMi */ 
+
+.mainSobreMi{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    line-height: $line-heigth-principal;
+    margin: $margin-principal;
+    text-align: justify;
+        .tituloSobreMi {
+            text-transform: uppercase;
+            text-align: center;
+        }
+        .pSobreMiDesktop {
+            display: none;
+        }
+        .videoSobreMi{
+                display: none;
+        }
+} 
+    
+
+// medidas de mq
+@import "../variables/mdDesktop";
+@import "../variables/mdTablet";
+

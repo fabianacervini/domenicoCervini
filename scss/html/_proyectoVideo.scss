@@ -1,0 +1,22 @@
+/* proyecto video */
+
+    .mainVideo{
+        padding: 3rem;
+        line-height: $line-heigth-principal;
+        text-align: center;
+        .pProyectoVideo {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+        .estiloVideo {
+            margin-top: 2rem;
+            width: 270px;
+            height: 220px;
+        }
+    }
+    
+
+// medidas de mq
+@import "../variables/mdDesktop";
+@import "../variables/mdTablet";
+

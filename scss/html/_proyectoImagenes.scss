@@ -1,0 +1,19 @@
+/* estilo proyecto imagenes */
+
+    .mainProyectoImagenes {
+        padding: 2rem;
+        margin-top: 2rem;
+        margin-bottom: $margin-bottom-principal;
+        line-height: $line-heigth-principal;
+        text-align: justify;
+            .textoImagenes {
+                margin-top: 3rem;
+                margin-bottom: 3rem;
+            }
+    }
+        
+
+// medidas de mq
+@import "../variables/mdDesktop";
+@import "../variables/mdTablet";
+

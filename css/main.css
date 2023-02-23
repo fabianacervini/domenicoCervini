@@ -1,0 +1,906 @@
+/* estilos de index */
+.bodyIndex {
+  background-image: url(../img/inicio.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: rgb(248, 249, 250);
+}
+
+.mainIndex {
+  margin: 3rem;
+  text-align: center;
+  color: rgb(248, 249, 250);
+}
+.mainIndex .pIndex {
+  color: rgb(248, 249, 250);
+}
+.mainIndex .tituloInicio {
+  margin-top: 4rem;
+  font-size: 2rem;
+}
+.mainIndex .parrafoArtista {
+  margin-top: 5rem;
+  text-align: center;
+  gap: 2rem;
+  line-height: 1.5rem;
+  color: rgb(248, 249, 250);
+}
+
+/* mq de desktop */
+@media screen and (min-width: 1024px) {
+  /* mq estilos de header */
+  header nav .offcanvas-body {
+    gap: 1rem;
+    background-color: transparent;
+  }
+  header nav ul {
+    gap: 1rem;
+    background-color: transparent;
+  }
+  /* mq de index  */
+  .mainIndex {
+    height: 80vh;
+  }
+  .mainIndex .pIndex {
+    margin-top: 10vh;
+  }
+  .mainIndex .tituloInicio {
+    margin-top: 15vh;
+    font-size: 6rem;
+  }
+  .mainIndex .parrafoArtista {
+    margin-top: 15vh;
+    text-align: center;
+  }
+  /* mq de sobreMi */
+  .mainSobreMi {
+    gap: 2rem;
+    margin: 3rem;
+  }
+  .mainSobreMi .imgSobreMi {
+    margin-top: 1rem;
+    width: 76%;
+    height: auto;
+  }
+  .mainSobreMi .videoSobreMi {
+    display: block;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 59rem;
+    height: 42rem;
+  }
+  .mainSobreMi .pArtista {
+    width: 70rem;
+    text-align: center;
+    line-height: 2rem;
+  }
+  /* mq de proyectoVideos */
+  .mainVideo .video {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  .mainVideo .video .estiloVideo {
+    width: 550px;
+    height: 315px;
+  }
+  /* mq de proyectoImagenes */
+  .mainProyectoImagenes {
+    margin: 2rem;
+    padding: 2rem;
+    line-height: 2rem;
+    text-align: center;
+  }
+  /* mq de contacto */
+  .gridCaja {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 60% 40%;
+    text-align: center;
+    margin-top: -5rem;
+    /* estilos de footer */
+  }
+  .gridCaja .textoContacto {
+    text-align: center;
+    margin-top: 4rem;
+    margin-left: 3rem;
+    padding: 3rem;
+    height: 30rem;
+    width: 36rem;
+    line-height: 2.2rem;
+  }
+  .gridCaja .noTextoContacto {
+    display: block;
+  }
+  .gridCaja .imgContacto {
+    width: 30rem;
+    height: 25rem;
+    margin-top: 6rem;
+    margin-left: 3.5rem;
+  }
+  .gridCaja .formulario {
+    grid-column: span 2;
+    padding: 3rem;
+  }
+  .gridCaja footer {
+    justify-content: space-around;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    height: 30rem;
+    bottom: 0;
+  }
+}
+/* mq de tablets */
+@media screen and (min-width: 680px) {
+  /* mq de main sobre mi */
+  .videoSobreMi {
+    display: block;
+    width: 42rem;
+    height: 42rem;
+  }
+  /* mq de proyectoVideos */
+  .video {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    margin-top: 4rem;
+  }
+  /* mq de main proyectoImagenes */
+  .mainProyectoImagenes {
+    padding: 1rem;
+    line-height: 2rem;
+    text-align: center;
+  }
+  .mainProyectoImagenes .textoImagenes {
+    margin: 2rem;
+  }
+  /* estilos de footer */
+  footer .pFooter {
+    font-size: 3rem;
+  }
+  footer a img {
+    width: 1.5rem;
+  }
+}
+/* estilos de sobreMi */
+.mainSobreMi {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  line-height: 2rem;
+  margin: 3rem;
+  text-align: justify;
+}
+.mainSobreMi .tituloSobreMi {
+  text-transform: uppercase;
+  text-align: center;
+}
+.mainSobreMi .pSobreMiDesktop {
+  display: none;
+}
+.mainSobreMi .videoSobreMi {
+  display: none;
+}
+
+/* mq de desktop */
+@media screen and (min-width: 1024px) {
+  /* mq estilos de header */
+  header nav .offcanvas-body {
+    gap: 1rem;
+    background-color: transparent;
+  }
+  header nav ul {
+    gap: 1rem;
+    background-color: transparent;
+  }
+  /* mq de index  */
+  .mainIndex {
+    height: 80vh;
+  }
+  .mainIndex .pIndex {
+    margin-top: 10vh;
+  }
+  .mainIndex .tituloInicio {
+    margin-top: 15vh;
+    font-size: 6rem;
+  }
+  .mainIndex .parrafoArtista {
+    margin-top: 15vh;
+    text-align: center;
+  }
+  /* mq de sobreMi */
+  .mainSobreMi {
+    gap: 2rem;
+    margin: 3rem;
+  }
+  .mainSobreMi .imgSobreMi {
+    margin-top: 1rem;
+    width: 76%;
+    height: auto;
+  }
+  .mainSobreMi .videoSobreMi {
+    display: block;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 59rem;
+    height: 42rem;
+  }
+  .mainSobreMi .pArtista {
+    width: 70rem;
+    text-align: center;
+    line-height: 2rem;
+  }
+  /* mq de proyectoVideos */
+  .mainVideo .video {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  .mainVideo .video .estiloVideo {
+    width: 550px;
+    height: 315px;
+  }
+  /* mq de proyectoImagenes */
+  .mainProyectoImagenes {
+    margin: 2rem;
+    padding: 2rem;
+    line-height: 2rem;
+    text-align: center;
+  }
+  /* mq de contacto */
+  .gridCaja {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 60% 40%;
+    text-align: center;
+    margin-top: -5rem;
+    /* estilos de footer */
+  }
+  .gridCaja .textoContacto {
+    text-align: center;
+    margin-top: 4rem;
+    margin-left: 3rem;
+    padding: 3rem;
+    height: 30rem;
+    width: 36rem;
+    line-height: 2.2rem;
+  }
+  .gridCaja .noTextoContacto {
+    display: block;
+  }
+  .gridCaja .imgContacto {
+    width: 30rem;
+    height: 25rem;
+    margin-top: 6rem;
+    margin-left: 3.5rem;
+  }
+  .gridCaja .formulario {
+    grid-column: span 2;
+    padding: 3rem;
+  }
+  .gridCaja footer {
+    justify-content: space-around;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    height: 30rem;
+    bottom: 0;
+  }
+}
+/* mq de tablets */
+@media screen and (min-width: 680px) {
+  /* mq de main sobre mi */
+  .videoSobreMi {
+    display: block;
+    width: 42rem;
+    height: 42rem;
+  }
+  /* mq de proyectoVideos */
+  .video {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    margin-top: 4rem;
+  }
+  /* mq de main proyectoImagenes */
+  .mainProyectoImagenes {
+    padding: 1rem;
+    line-height: 2rem;
+    text-align: center;
+  }
+  .mainProyectoImagenes .textoImagenes {
+    margin: 2rem;
+  }
+  /* estilos de footer */
+  footer .pFooter {
+    font-size: 3rem;
+  }
+  footer a img {
+    width: 1.5rem;
+  }
+}
+/* estilo proyecto imagenes */
+.mainProyectoImagenes {
+  padding: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  line-height: 2rem;
+  text-align: justify;
+}
+.mainProyectoImagenes .textoImagenes {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+/* mq de desktop */
+@media screen and (min-width: 1024px) {
+  /* mq estilos de header */
+  header nav .offcanvas-body {
+    gap: 1rem;
+    background-color: transparent;
+  }
+  header nav ul {
+    gap: 1rem;
+    background-color: transparent;
+  }
+  /* mq de index  */
+  .mainIndex {
+    height: 80vh;
+  }
+  .mainIndex .pIndex {
+    margin-top: 10vh;
+  }
+  .mainIndex .tituloInicio {
+    margin-top: 15vh;
+    font-size: 6rem;
+  }
+  .mainIndex .parrafoArtista {
+    margin-top: 15vh;
+    text-align: center;
+  }
+  /* mq de sobreMi */
+  .mainSobreMi {
+    gap: 2rem;
+    margin: 3rem;
+  }
+  .mainSobreMi .imgSobreMi {
+    margin-top: 1rem;
+    width: 76%;
+    height: auto;
+  }
+  .mainSobreMi .videoSobreMi {
+    display: block;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 59rem;
+    height: 42rem;
+  }
+  .mainSobreMi .pArtista {
+    width: 70rem;
+    text-align: center;
+    line-height: 2rem;
+  }
+  /* mq de proyectoVideos */
+  .mainVideo .video {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  .mainVideo .video .estiloVideo {
+    width: 550px;
+    height: 315px;
+  }
+  /* mq de proyectoImagenes */
+  .mainProyectoImagenes {
+    margin: 2rem;
+    padding: 2rem;
+    line-height: 2rem;
+    text-align: center;
+  }
+  /* mq de contacto */
+  .gridCaja {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 60% 40%;
+    text-align: center;
+    margin-top: -5rem;
+    /* estilos de footer */
+  }
+  .gridCaja .textoContacto {
+    text-align: center;
+    margin-top: 4rem;
+    margin-left: 3rem;
+    padding: 3rem;
+    height: 30rem;
+    width: 36rem;
+    line-height: 2.2rem;
+  }
+  .gridCaja .noTextoContacto {
+    display: block;
+  }
+  .gridCaja .imgContacto {
+    width: 30rem;
+    height: 25rem;
+    margin-top: 6rem;
+    margin-left: 3.5rem;
+  }
+  .gridCaja .formulario {
+    grid-column: span 2;
+    padding: 3rem;
+  }
+  .gridCaja footer {
+    justify-content: space-around;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    height: 30rem;
+    bottom: 0;
+  }
+}
+/* mq de tablets */
+@media screen and (min-width: 680px) {
+  /* mq de main sobre mi */
+  .videoSobreMi {
+    display: block;
+    width: 42rem;
+    height: 42rem;
+  }
+  /* mq de proyectoVideos */
+  .video {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    margin-top: 4rem;
+  }
+  /* mq de main proyectoImagenes */
+  .mainProyectoImagenes {
+    padding: 1rem;
+    line-height: 2rem;
+    text-align: center;
+  }
+  .mainProyectoImagenes .textoImagenes {
+    margin: 2rem;
+  }
+  /* estilos de footer */
+  footer .pFooter {
+    font-size: 3rem;
+  }
+  footer a img {
+    width: 1.5rem;
+  }
+}
+/* proyecto video */
+.mainVideo {
+  padding: 3rem;
+  line-height: 2rem;
+  text-align: center;
+}
+.mainVideo .pProyectoVideo {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.mainVideo .estiloVideo {
+  margin-top: 2rem;
+  width: 270px;
+  height: 220px;
+}
+
+/* mq de desktop */
+@media screen and (min-width: 1024px) {
+  /* mq estilos de header */
+  header nav .offcanvas-body {
+    gap: 1rem;
+    background-color: transparent;
+  }
+  header nav ul {
+    gap: 1rem;
+    background-color: transparent;
+  }
+  /* mq de index  */
+  .mainIndex {
+    height: 80vh;
+  }
+  .mainIndex .pIndex {
+    margin-top: 10vh;
+  }
+  .mainIndex .tituloInicio {
+    margin-top: 15vh;
+    font-size: 6rem;
+  }
+  .mainIndex .parrafoArtista {
+    margin-top: 15vh;
+    text-align: center;
+  }
+  /* mq de sobreMi */
+  .mainSobreMi {
+    gap: 2rem;
+    margin: 3rem;
+  }
+  .mainSobreMi .imgSobreMi {
+    margin-top: 1rem;
+    width: 76%;
+    height: auto;
+  }
+  .mainSobreMi .videoSobreMi {
+    display: block;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 59rem;
+    height: 42rem;
+  }
+  .mainSobreMi .pArtista {
+    width: 70rem;
+    text-align: center;
+    line-height: 2rem;
+  }
+  /* mq de proyectoVideos */
+  .mainVideo .video {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  .mainVideo .video .estiloVideo {
+    width: 550px;
+    height: 315px;
+  }
+  /* mq de proyectoImagenes */
+  .mainProyectoImagenes {
+    margin: 2rem;
+    padding: 2rem;
+    line-height: 2rem;
+    text-align: center;
+  }
+  /* mq de contacto */
+  .gridCaja {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 60% 40%;
+    text-align: center;
+    margin-top: -5rem;
+    /* estilos de footer */
+  }
+  .gridCaja .textoContacto {
+    text-align: center;
+    margin-top: 4rem;
+    margin-left: 3rem;
+    padding: 3rem;
+    height: 30rem;
+    width: 36rem;
+    line-height: 2.2rem;
+  }
+  .gridCaja .noTextoContacto {
+    display: block;
+  }
+  .gridCaja .imgContacto {
+    width: 30rem;
+    height: 25rem;
+    margin-top: 6rem;
+    margin-left: 3.5rem;
+  }
+  .gridCaja .formulario {
+    grid-column: span 2;
+    padding: 3rem;
+  }
+  .gridCaja footer {
+    justify-content: space-around;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    height: 30rem;
+    bottom: 0;
+  }
+}
+/* mq de tablets */
+@media screen and (min-width: 680px) {
+  /* mq de main sobre mi */
+  .videoSobreMi {
+    display: block;
+    width: 42rem;
+    height: 42rem;
+  }
+  /* mq de proyectoVideos */
+  .video {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    margin-top: 4rem;
+  }
+  /* mq de main proyectoImagenes */
+  .mainProyectoImagenes {
+    padding: 1rem;
+    line-height: 2rem;
+    text-align: center;
+  }
+  .mainProyectoImagenes .textoImagenes {
+    margin: 2rem;
+  }
+  /* estilos de footer */
+  footer .pFooter {
+    font-size: 3rem;
+  }
+  footer a img {
+    width: 1.5rem;
+  }
+}
+/* estilos contacto */
+.mainContacto {
+  padding: 0.5rem;
+  line-height: 2rem;
+  margin: 3rem;
+  text-align: justify;
+}
+.mainContacto .tituloContacto {
+  margin-bottom: 2rem;
+}
+.mainContacto .noTextoContacto {
+  display: none;
+}
+.mainContacto .imgContacto {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.mainContacto .formulario {
+  color: rgb(33, 37, 41);
+}
+.mainContacto .mensajeFormulario, .mainContacto .botonesFormulario {
+  text-align: center;
+  color: rgb(248, 249, 250);
+}
+
+/* mq de desktop */
+@media screen and (min-width: 1024px) {
+  /* mq estilos de header */
+  header nav .offcanvas-body {
+    gap: 1rem;
+    background-color: transparent;
+  }
+  header nav ul {
+    gap: 1rem;
+    background-color: transparent;
+  }
+  /* mq de index  */
+  .mainIndex {
+    height: 80vh;
+  }
+  .mainIndex .pIndex {
+    margin-top: 10vh;
+  }
+  .mainIndex .tituloInicio {
+    margin-top: 15vh;
+    font-size: 6rem;
+  }
+  .mainIndex .parrafoArtista {
+    margin-top: 15vh;
+    text-align: center;
+  }
+  /* mq de sobreMi */
+  .mainSobreMi {
+    gap: 2rem;
+    margin: 3rem;
+  }
+  .mainSobreMi .imgSobreMi {
+    margin-top: 1rem;
+    width: 76%;
+    height: auto;
+  }
+  .mainSobreMi .videoSobreMi {
+    display: block;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 59rem;
+    height: 42rem;
+  }
+  .mainSobreMi .pArtista {
+    width: 70rem;
+    text-align: center;
+    line-height: 2rem;
+  }
+  /* mq de proyectoVideos */
+  .mainVideo .video {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  .mainVideo .video .estiloVideo {
+    width: 550px;
+    height: 315px;
+  }
+  /* mq de proyectoImagenes */
+  .mainProyectoImagenes {
+    margin: 2rem;
+    padding: 2rem;
+    line-height: 2rem;
+    text-align: center;
+  }
+  /* mq de contacto */
+  .gridCaja {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 60% 40%;
+    text-align: center;
+    margin-top: -5rem;
+    /* estilos de footer */
+  }
+  .gridCaja .textoContacto {
+    text-align: center;
+    margin-top: 4rem;
+    margin-left: 3rem;
+    padding: 3rem;
+    height: 30rem;
+    width: 36rem;
+    line-height: 2.2rem;
+  }
+  .gridCaja .noTextoContacto {
+    display: block;
+  }
+  .gridCaja .imgContacto {
+    width: 30rem;
+    height: 25rem;
+    margin-top: 6rem;
+    margin-left: 3.5rem;
+  }
+  .gridCaja .formulario {
+    grid-column: span 2;
+    padding: 3rem;
+  }
+  .gridCaja footer {
+    justify-content: space-around;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    height: 30rem;
+    bottom: 0;
+  }
+}
+/* mq de tablets */
+@media screen and (min-width: 680px) {
+  /* mq de main sobre mi */
+  .videoSobreMi {
+    display: block;
+    width: 42rem;
+    height: 42rem;
+  }
+  /* mq de proyectoVideos */
+  .video {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    margin-top: 4rem;
+  }
+  /* mq de main proyectoImagenes */
+  .mainProyectoImagenes {
+    padding: 1rem;
+    line-height: 2rem;
+    text-align: center;
+  }
+  .mainProyectoImagenes .textoImagenes {
+    margin: 2rem;
+  }
+  /* estilos de footer */
+  footer .pFooter {
+    font-size: 3rem;
+  }
+  footer a img {
+    width: 1.5rem;
+  }
+}
+/* reset general */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* estilos generales */
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  background-image: url(../img/fondo.jpeg);
+  color: rgb(248, 249, 250);
+}
+body h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-shadow: 1px 1px 2px #b8b6b6;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(206, 212, 218);
+}
+
+/* estilos de header */
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+header .imgHeader {
+  max-width: 5rem;
+  height: auto;
+}
+header .navbar_toggler {
+  background-color: whitesmoke;
+}
+header .offcanvas_header {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+}
+header .btn-close {
+  background-color: rgb(255, 255, 255);
+}
+header .offcanvas-body {
+  background-color: rgb(0, 0, 0);
+}
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 0.2rem;
+  background-color: rgb(0, 0, 0);
+}
+header .nav-link {
+  color: rgb(255, 255, 255);
+}
+
+/* estilos de footer */
+footer {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100%;
+  height: 4rem;
+  bottom: 0;
+}
+footer .enlaces {
+  text-decoration: none;
+}
+footer .enlaces img {
+  width: 1rem;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+footer .pFooter {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  padding-top: 1rem;
+  font-size: 0.4rem;
+}
+footer .irArriba {
+  font-size: 0.6rem;
+  display: inline-block;
+  background-color: rgb(255, 255, 255);
+  padding: 6px 16px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+footer .irArriba #irArriba {
+  position: absolute;
+  top: 0;
+  text-decoration: none;
+}/*# sourceMappingURL=main.css.map */

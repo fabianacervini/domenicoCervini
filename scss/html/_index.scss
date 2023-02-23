@@ -1,0 +1,36 @@
+/* estilos de index */
+
+    .bodyIndex{
+        background-image: url(../img/inicio.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center; 
+        color: $color-texts;
+    }
+    
+    
+    .mainIndex{
+            margin: $margin-principal;
+            text-align: center;
+            color: $color-texts;
+            .pIndex{    
+                color: $color-texts;
+            }
+            .tituloInicio{
+                margin-top: $margin-top-principal;
+                font-size: 2rem;
+            }
+            .parrafoArtista{
+                margin-top: 5rem;
+                text-align: center;
+                gap: $gap-principal;
+                line-height: 1.5rem;
+                color: $color-texts;
+            }  
+    }
+
+
+// medidas de mq
+@import "../variables/mdDesktop";
+@import "../variables/mdTablet";
+

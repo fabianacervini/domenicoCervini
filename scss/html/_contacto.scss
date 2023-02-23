@@ -1,0 +1,32 @@
+/* estilos contacto */ 
+
+
+    .mainContacto{
+        padding: 0.5rem;
+        line-height: $line-heigth-principal;
+        margin: $margin-principal;
+        text-align: justify;
+            .tituloContacto{
+                margin-bottom: $margin-bottom-principal;
+            }
+            .noTextoContacto{
+                display: none;
+            }
+            .imgContacto {
+                margin-top: 3rem;
+                margin-bottom: 3rem;
+            }
+            .formulario {
+                color:$color-form;
+            }
+            .mensajeFormulario, .botonesFormulario {
+                text-align: center;
+                color: $color-texts;
+            }
+    }
+    
+    
+// medidas de mq
+@import "../variables/mdDesktop";
+@import "../variables/mdTablet";
+
