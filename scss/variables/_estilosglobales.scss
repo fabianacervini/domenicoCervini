@@ -39,15 +39,15 @@ header{
             max-width: 5rem;
             height: auto;
         }
-        .navbar_toggler{
+        .navbar-toggler{
             background-color: $bottoms-color;
         }
-        .offcanvas_header{
-            color: $menu-color;
-            background-color: $background-color-principal;
+        .offcanvas-header{
+            background-color: $menu-color;
         }
         .btn-close{
-            background-color: $menu-color;
+            background-color: $botton-close;
+
         }
         .offcanvas-body{
             background-color: $background-color-principal;
@@ -90,7 +90,7 @@ header{
             .irArriba{
                 font-size: 0.6rem;
                 display: inline-block;
-                background-color: $menu-color;
+                background-color: rgb(199, 194, 194);
                 padding: 6px 16px;
                 border-radius: $border-radius;
                 text-decoration: none;
