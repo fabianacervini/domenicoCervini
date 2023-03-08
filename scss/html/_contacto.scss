@@ -3,11 +3,11 @@
 
     .mainContacto{
         padding: 0.5rem;
-        line-height: $line-heigth-principal;
-        margin: $margin-principal;
+        line-height: $lineHeigthPrincipal;
+        margin: $marginPrincipal;
         text-align: justify;
             .tituloContacto{
-                margin-bottom: $margin-bottom-principal;
+                margin-bottom: $marginBottomPrincipal;
             }
             .noTextoContacto{
                 display: none;
@@ -17,11 +17,11 @@
                 margin-bottom: 3rem;
             }
             .formulario {
-                color:$color-form;
+                color: $colorForm;
             }
             .mensajeFormulario, .botonesFormulario {
                 text-align: center;
-                color: $color-texts;
+                color: $colorTexts;
             }
     }
     

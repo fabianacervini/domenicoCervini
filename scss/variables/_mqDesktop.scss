@@ -41,8 +41,8 @@
 /* mq de sobreMi */
 
 .mainSobreMi{
-        gap: $gap-principal;
-        margin: $margin-principal;
+        gap: $gapPrincipal;
+        margin: $marginPrincipal;
             .imgSobreMi {
                 margin-top: 1rem;
                 width: 76%;
@@ -51,14 +51,14 @@
             .videoSobreMi {
                 display: block;
                 margin-top: 2rem;
-                margin-bottom: $margin-bottom-principal;
+                margin-bottom: $marginBottomPrincipal;
                 width: 59rem;
                 height: 42rem;
             }
             .pArtista {
                 width: 70rem;
                 text-align: center;
-                line-height: $line-heigth-principal;
+                line-height: $lineHeigthPrincipal;
             }
             .pSobreMiDesktop{
                 display: block;
@@ -72,7 +72,7 @@
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
                 grid-template-rows: repeat(2, 1fr);
-                gap: $gap-principal;
+                gap: $gapPrincipal;
                     .estiloVideo {
                         width: 690px;
                         height: 430px;
@@ -84,9 +84,9 @@
     /* mq de proyectoImagenes */
 
     .mainProyectoImagenes {
-            margin: $margin-secundary;
+            margin: $marginSecundary;
             padding: 2rem;
-            line-height: $line-heigth-principal;
+            line-height: $lineHeigthPrincipal;
             text-align: center;
         }
 
@@ -159,12 +159,12 @@
 
 
     .tituloInicio, .tituloSobreMi, .tituloVideo, .tituloImagenes, .tituloContacto {
-        transition: $transition-time-principal;
+        transition: $transitionTimePrincipal;
     }
 
     .tituloInicio:hover, .tituloSobreMi:hover, .tituloVideo:hover, .tituloImagenes:hover, .tituloContacto:hover {
         transform: scale(0.8);
-        transition: $transition-time-secundary;
+        transition: $transitionTimeSecundary;
     }
 
     /* animacion de sobreMi */

@@ -71,6 +71,9 @@ header .nav-link {
   border-radius: 10px;
   text-decoration: none;
 }
+.footer .irArriba .etiquetaArriba {
+  text-decoration: none;
+}
 .footer .irArriba #irArriba {
   position: absolute;
   top: 0;

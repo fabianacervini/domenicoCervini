@@ -12,14 +12,14 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     background-image: url(../img/fondo.jpeg);
-    color: $color-texts;
+    color: $colorTexts;
         h1{
             font-family: 'Montserrat', sans-serif;
             font-weight: 600;
             text-shadow: 1px 1px 2px #b8b6b6;
             text-align: center;
             text-transform: uppercase;
-            color: $color-tittles;
+            color: $colorTittles;
         }
     }
 
@@ -33,26 +33,26 @@ header{
             height: auto;
         }
         .navbar-toggler{
-            background-color: $bottoms-color;
+            background-color: $bottomsColor;
         }
         .offcanvas-header{
-            background-color: $menu-color;
+            background-color: $menuColor;
         }
         .btn-close{
-            background-color: $botton-close;
+            background-color: $bottonClose;
 
         }
         .offcanvas-body{
-            background-color: $background-color-principal;
+            background-color: $backgroundColorPrincipal;
         }
         ul{
             list-style: none;
             display: flex;
             gap: 0.2rem;
-            background-color: $background-color-principal;
+            background-color: $backgroundColorPrincipal;
         }
         .nav-link{
-            color: $menu-color;
+            color: $menuColor;
         }
     }
 
@@ -78,8 +78,11 @@ header{
                 display: inline-block;
                 background-color: rgb(199, 194, 194);
                 padding: 6px 16px;
-                border-radius: $border-radius;
+                border-radius: $borderRadius;
                 text-decoration: none;
+                    .etiquetaArriba{
+                        text-decoration: none;
+                    }
                     #irArriba{
                         position: absolute;
                         top: 0;

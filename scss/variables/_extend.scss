@@ -8,19 +8,19 @@
     top: 0;
     z-index: 2;
     text-transform: uppercase;
-    background-color: $background-color-header;
+    background-color: $backgroundColorHeader;
 }
 
 %parrafoMain{
     margin-top: 5rem;
     text-align: center;
-    gap: $gap-principal;
+    gap: $gapPrincipal;
     line-height: 1.5rem;
-    color: $color-texts;
+    color: $colorTexts;
 }
 
 %footer{
-    background-color: $background-color-principal;
+    background-color: $backgroundColorPrincipal;
     display: flex;
     justify-content: space-around;
     align-items: center;

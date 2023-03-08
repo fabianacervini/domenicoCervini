@@ -5,19 +5,19 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center; 
-        color: $color-texts;
+        color: $colorTexts;
     }
     
     
     .mainIndex{
-            margin: $margin-principal;
+            margin: $marginPrincipal;
             text-align: center;
-            color: $color-texts;
+            color: $colorTexts;
             .pIndex{    
-                color: $color-texts;
+                color: $colorTexts;
             }
             .tituloInicio{
-                margin-top: $margin-top-principal;
+                margin-top: $marginTopPrincipal;
                 font-size: 2rem;
             }
             .parrafoArtista{
