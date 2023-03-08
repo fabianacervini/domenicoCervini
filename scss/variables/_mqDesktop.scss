@@ -1,3 +1,5 @@
+@import "../variables/mixin";
+
 /* mq de desktop */
 
 @media screen and (min-width:1024px) {
@@ -13,7 +15,6 @@
             ul{
                 gap: 1rem;
                 background-color: transparent;
-                
             }
         }
     }
@@ -22,7 +23,7 @@
      /* mq de index  */
 
     .mainIndex {
-            height: 80vh;
+            height: 65vh;
                 .pIndex{
                     margin-top: 10vh;
                 }
@@ -73,8 +74,8 @@
                 grid-template-rows: repeat(2, 1fr);
                 gap: $gap-principal;
                     .estiloVideo {
-                        width: 550px;
-                        height: 315px;
+                        width: 690px;
+                        height: 430px;
                     }
                 }    
             }
@@ -95,13 +96,22 @@
     .gridCaja {
         @include contacto (grid, repeat (2, 1fr), 60% 40%, center, -5rem);
         .textoContacto {
-            @extend %contacto;
+            text-align: center;
+            margin-top: 4rem;
+            margin-left: 10rem;
+            padding: 3rem;
+            height: 30rem;
+            width: 36rem;
+            line-height: 2.2rem;
         }
         .noTextoContacto{
             display: block;
         }
         .imgContacto {
-            @extend %imgContacto;
+            width: 30rem;
+            height: 25rem;
+            margin-top: 6rem;
+            margin-left: 3.5rem;
         }
         .formulario {
             grid-column: span 2;
@@ -112,15 +122,19 @@
     /* estilos de footer */
 
         .footer{
-            @include footerDesktop (space-around, center, sticky, 100%, 8rem, 0);
+            @include footerDesktop (space-around, center, sticky, 100%, 7rem, 0);
             .pFooter {
-                font-size: 6rem;
+                font-size: 0.9rem;
             }
-            .imgFooter{
-                width: 4rem;
-            }
+            .enlaceFooter{
+                text-decoration: none;
+                    img{
+                        width: 2.5rem;
+                        text-decoration-line: none; 
+                    }
+                }
             .irArriba {
-                font-size: 0.8rem;
+                font-size: 1rem;
                 padding: 6px 16px;
                 border-radius: 10px;
             }
